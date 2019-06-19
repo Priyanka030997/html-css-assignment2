@@ -1,0 +1,102 @@
+.topnav {
+  background-color:white;
+  overflow:hidden;
+  position:fixed;
+width: 100%;
+margin-bottom:10px;
+}
+.topnav a {
+   
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 55px 30px;
+    font-size: 17px;
+   
+}
+.topnav h1{
+    
+    float:left;
+    color:black;
+    font-size:50px;
+   
+}
+.hero-text{
+    margin-top:10px;
+    text-align: center;
+  
+  background-color:gray;
+  width:none;
+  height:200px;
+  padding:20px;
+  font-size:30px;
+  color: white;
+}
+*{
+    box-sizing:border-box;
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+    height:400px;
+    padding:30px;
+    background-color:white;
+}
+.column2{
+    float: left;
+    width: 33.33%;
+    height:400px;
+    padding:10px;
+    background-color:white;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    height:400px;
+    padding:10px;
+    background-color:white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  *{
+    box-sizing:border-box;
+}
+.column4 {
+   
+    float: left;
+    width: 30%;
+    height:400px;
+    padding:30px;
+    background-color:white;
+}
+.column5{
+    float: left;
+    width: 70%;
+    height:400px;
+    padding:10px;
+    background-color:white;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer{
+      padding:20px 2px 30px 200px;
+      text-align:center;
+      width:none;
+    
+      height:200px;
+      background-color:palegoldenrod;
+
+}
+body{
+    height:100%;
+    width:100;
+
+}
